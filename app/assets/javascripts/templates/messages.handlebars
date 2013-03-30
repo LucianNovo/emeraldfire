@@ -1,0 +1,11 @@
+{{#view EmberFirebaseChat.MessagesView}}
+<ul>
+  {{#each message in content}}
+  <li><code>{{message.id}}</code> | <strong>{{message.sender}}</strong>: {{message.content}}</li>
+  {{/each}}
+</ul>
+
+<input type="text" id="user" placeholder="Username">
+<input type="text" id="message" placeholder="Message">
+<button {{action "newMessage" target="view"}}>add a new message</button>
+{{/view}}

@@ -1,0 +1,3 @@
+EmberFirebaseChat.Router.map(function() {
+  
+});
