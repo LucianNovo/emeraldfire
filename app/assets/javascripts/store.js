@@ -1,7 +1,7 @@
 //= require lib/firebase_adapter
 
 EmberFirebaseChat.store = DS.Store.create({
-  revision: 11,
+  revision: 12,
   adapter: DS.Firebase.Adapter.create({
     dbName: "emberchat"
   })

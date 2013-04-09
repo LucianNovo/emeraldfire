@@ -1,0 +1,58 @@
+@import "twitter/bootstrap/bootstrap";
+
+@chat-input-height: 40px;
+
+.chat-container {
+  height:100%;
+  width:100%;
+
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+.chat-messages-container {
+  position:absolute;
+  top:0px;
+  bottom: @chat-input-height;
+  width:100%;
+
+  ul {
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    width:100%;
+    margin:0;
+    padding:5px;
+    overflow-y:scroll;
+  }
+}
+
+.chat-input-container {
+  position:absolute;
+  height: @chat-input-height;
+  bottom:0px;
+  background-color:#eaeaea;
+
+  width:100%;
+  border-top:1px #555 solid;
+
+  .form-inline {
+    margin-top:5px;
+    input {
+      position:absolute;
+      width:auto;
+      left:5px;
+      right:70px;
+    }
+    button {
+      position:absolute;
+      width:60px;
+      right:5px;
+    }
+  }
+}
