@@ -2,7 +2,10 @@
   <div class="chat-messages-container">
     <ul class="chat-messages">
       {{#each message in content}}
-        <li><strong>{{message.sender}}</strong>: {{message.content}}</li>
+      <li>
+        [{{formatTimestamp "message.timestamp" fmtString="h:mm:ss A"}}] 
+        <strong>{{message.sender}}</strong>: {{message.content}}
+      </li>
       {{/each}}
     </ul>
   </div>

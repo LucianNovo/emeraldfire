@@ -11,7 +11,8 @@ EmberFirebaseChat.ChatController = Ember.Controller.extend({
   newMessage: function(sender, message) {
     var msg = EmberFirebaseChat.Message.createRecord({
       sender: sender,
-      content: message
+      content: message,
+      timestamp: new Date()
     });
 
     EmberFirebaseChat.store.commit();
