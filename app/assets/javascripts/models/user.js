@@ -1,3 +1,3 @@
-EmberFirebaseChat.User = DS.Firebase.LiveModel.extend({
+EmberFirebaseChat.User = DS.Firebase.Model.extend({
   nickname: DS.attr('string'),
 });
