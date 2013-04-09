@@ -8,6 +8,9 @@
   <script type='text/javascript'
         src='https://login.persona.org/include.js'>
   </script>
+  <script type="text/javascript">
+    window.DB_NAME = "<%= ENV['DB_NAME'] %>"
+  </script>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
