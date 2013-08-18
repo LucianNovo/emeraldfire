@@ -1,3 +1,3 @@
-EmberFirebaseChat.Router.map(function() {
+EmberpressFirebase.Router.map(function() {
   
 });

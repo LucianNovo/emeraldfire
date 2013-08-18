@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-EmberFirebaseChat::Application.load_tasks
+EmberpressFirebase::Application.load_tasks

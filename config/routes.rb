@@ -1,3 +1,3 @@
-EmberFirebaseChat::Application.routes.draw do
+EmberpressFirebase::Application.routes.draw do
   root :to => 'assets#index'
 end

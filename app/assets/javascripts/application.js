@@ -10,6 +10,24 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //= require jquery
 //= require jquery_ujs
 //= require handlebars
@@ -19,22 +37,6 @@
 //= require ember_firebase_chat
 // EmberpressFirebase = Ember.Application.create();
 //= require_tree .
-
-// ## EmberPress
-//
-// This is a clone of the popular [Letterpress](https://itunes.apple.com/ca/app/letterpress-word-game/id526619424?mt=8)
-// game. It is meant to show off the client side powers of the [EmberJS](http://emberjs.org)
-// framework and was originally created for [Toronto EmberJS](http://torontoemberjs.com)
-// meetup by [Evil Trout](http://eviltrout.com).
-//
-// Mucho thanks go out Loren Brichter for the inspiration. Thanks to the EmberJS
-// team for making an awesome framework that makes client side development fun.
-// The dictionary was imported from [EOWL](http://dreamsteep.com/projects/the-english-open-word-list.html).
-// The icons are from [Font Awesome](http://fortawesome.github.com/Font-Awesome).
-//
-// The complete source code can be found on [Github](https://github.com/eviltrout/emberpress).
-
-// ## EmberPress source code
 
 /*global window, Ember, $, EmberPressDictionary, alert*/
 (function () {
