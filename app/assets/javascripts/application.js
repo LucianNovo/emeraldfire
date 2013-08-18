@@ -17,7 +17,6 @@
 //= require ember-data
 //= require_self
 //= require ember_firebase_chat
-// EmberFirebaseChat = Ember.Application.create();
 // EmberpressFirebase = Ember.Application.create();
 //= require_tree .
 

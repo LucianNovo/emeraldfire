@@ -1,2 +1,2 @@
-EmberFirebaseChat.ApplicationView = Ember.View.extend({
+EmberpressFirebase.ApplicationView = Ember.View.extend({
 });
